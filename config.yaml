@@ -155,21 +155,19 @@ params:
         title: "Product"
         links:
         - text: Discover features
-          link: /
+          link: /#section2
         - text: Our roadmap
-          link: /
+          link: https://github.com/gramster/wordfindergeneral/blob/main/README.md
       column2:
         title: "Docs"
         links:
-        - text: Get started
-          link: /
         - text: User guide
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+          link: https://github.com/gramster/wordfindergeneral/blob/main/userguide.md
+      #column3:
+      #  title: "Blog"
+      #  links:
+      #  - text: Latest news
+      #    link: /blog/first
+      #  - text: Tech articles
+      #    link: /blog/second
 
