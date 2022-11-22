@@ -147,8 +147,6 @@ params:
     socialmedia:
     - link: https://www.facebook.com/profile.php?id=100088167758047
       icon: facebook
-    - link: https://mastodon.social/8cribble
-      icon: mastodon
     - link: mailto://support@8cribble.com
       icon: mail
     bulmalogo: false
