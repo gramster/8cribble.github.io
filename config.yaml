@@ -29,17 +29,17 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/8cribble-logo.svg
+    image: twg.png
     link: /
     # Default width/height. Uncomment if you need to change
-    #width: 512
-    #height: 512
+    width: 72
+    height: 400
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: (Under Construction) The Wordfinder General
+    title: The Wordfinder General
     # Hero subtitle (optional)
     subtitle: The most powerful word searcher for puzzle lovers.
     # Button text
@@ -58,7 +58,7 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
-    url: /#section1
+    url: /#section2
   - title: Screenshots
     url: /#section3
   #- title: Get It
@@ -75,66 +75,79 @@ params:
   #      url: /
   #    - text: App settings
   #      url: /
-  section1:
-    title: Great power comes
-    subtitle: with great responsibility
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-  section2: false
-  #  title: You're here because you want the best
-  #  subtitle: And we know it
-  #  features:
-  #  - title: Powerful and unified interface
-  #    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-  #    # Icon (from /images/illustrations/icons/___.svg)
-  #    icon: laptop-globe
-  #  - title: Cross-device synchronisation
-  #    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-  #    icon: doc-sync
-  #  - title: Nomad system
-  #    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-  #    icon: mobile-feed
+  section1: false
+  #  title: Great power comes
+  #  subtitle: with great responsibility
+  #  tiles:
+  #  - title: App builder
+  #    icon: mouse-globe
+  #    text: This is some explanatory text that is on two rows
+  #    url: /
+  #    buttonText: Free trial
+  #  - title: Cloud integration
+  #    icon: laptop-cloud
+  #    text: This is some explanatory text that is on two rows
+  #    url: /
+  #    buttonText: Get started
+  #  - title: Add-ons & plugins
+  #    icon: plug-cloud
+  #    text: This is some explanatory text that is on two rows
+  #    url: /
+  #    buttonText: Get started
+  section2:
+    title: The most powerful word search app for mobile devices
+    subtitle: Made by and for puzzle lovers, crossword fans, Scrabble players, and other logophiles 
+    features:
+    - title: Multiple types of search
+      text: Anagrams, cryptograms, crossword grid, prefix and suffix, and combinations of these
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Multiple dictionaries
+      text: Choose whether to limit to more common words or include a multitude of obscure ones
+      icon: doc-sync
+    - title: Word Definitions
+      text: All words have offline Wiktionary definitions available
+      icon: mobile-feed
   section3:
     title: One search
     subtitle: To rule them all
     image: illustrations/mockups/app-mockup.png
-    #buttonText: Get the app
-    #buttonLink: "#"
-  section4: false
-  #  title: Our Clients love us!
-  #  subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-  #  clients:
-  #  - name: Irma Walters
-  #    quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #    job: Accountant
-  #    img: 1
-  section5: true
+    buttonText: Get the app
+    buttonLink: "#"
+  section4:
+    title: Our users love it!
+    subtitle: Real quotes from real users
+    clients:
+    - name: Michael, Germany
+      quote: Just a note to thank you again; you just helped me to solve the Cinephile Xmas crossword in the FT. The program is brilliant.
+      #job: Accountant
+      country: Germany
+      img: 2
+    - name: Jin, USA
+      quote: This product is simply AWESOME. I'm a big scrabble fan. This tool comes in quite handy!
+      #job: Accountant
+      country: USA
+      img: 1
+    - name: Ruud, Netherlands
+      quote: Anyone working with crossword puzzles or the scrabble game should get a copy of this amazing product!  It is worth at least ****** !
+      #job: Accountant
+      country: Netherlands
+      img: 3
+  section5: false
   footer:
     # Logo (from /images/logos/___)
-    logo: 8cribble-logo.svg
+    logo: infinit.svg
     #logo: fresh-white-alt.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://facebook.com/#
+    - link: https://www.facebook.com/profile.php?id=100088167758047
       icon: facebook
-    - link: https://twitter.com/lucperkins
+    - link: https://mastodon.social/8cribble
       icon: mastodon
+    - link: mailto://support@8cribble.com
+      icon: mail
     bulmalogo: false
     quicklinks:
       column1:
