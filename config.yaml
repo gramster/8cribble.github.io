@@ -1,7 +1,7 @@
 baseURL: https://www.8cribble.com/
 languageCode: en-us
 title: Infinite Scribble, LLC
-theme: hugo-fresh
+theme: hugo-myfresh
 outputs:
   home:
     - HTML
@@ -101,17 +101,20 @@ params:
     - title: Multiple types of search
       text: Anagrams, cryptograms, crossword grid, prefix and suffix, and combinations of these
       # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
+      image: twg-home-small.png
+      #icon: laptop-globe
     - title: Multiple dictionaries
       text: Choose whether to limit to more common words or include a multitude of obscure ones
-      icon: doc-sync
+      image: twg-dicts-small.png
+      #icon: doc-sync
     - title: Word Definitions
       text: All words have offline Wiktionary definitions available
-      icon: mobile-feed
+      image: twg-defn-small.png
+      #icon: mobile-feed
   section3:
     title: One search
     subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
+    image: twg-screens.png
     buttonText: Get the app
     buttonLink: "#"
   section4:
