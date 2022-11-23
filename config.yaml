@@ -32,7 +32,7 @@ params:
     image: twg.png
     link: /
     # Default width/height. Uncomment if you need to change
-    width: 72
+    width: 64
     height: 400
   font:
     name: "Open Sans"
