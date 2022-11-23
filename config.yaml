@@ -61,6 +61,8 @@ params:
     url: /#section2
   - title: Screenshots
     url: /#section3
+  - title: Try It!
+    url: /#demo
   #- title: Get It
   #  sublinks:
   #  - title: iOS
@@ -114,11 +116,11 @@ params:
       text: Choose whether to limit to more common words or include a multitude of obscure ones
       image: twg-dicts-small.png
   section3:
-    title: One search
-    subtitle: To rule them all
+    title: Online Demo
+    subtitle: Try It Out!
     image: twg-screens.png
-    buttonText: Get the app
-    buttonLink: "#"
+    buttonText: Online Demo
+    buttonLink: "demo/"
   section4:
     title: Our users love it!
     subtitle: Real quotes from real users
