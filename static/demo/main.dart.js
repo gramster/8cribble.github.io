@@ -71617,12 +71617,14 @@ A.a0A.prototype={
 $0(){},
 $S:0}
 A.a0y.prototype={
-$0(){var s=this.b,r=B.b.A(s," "),q=t.z,p=this.a.c
-if(r){p.toString
-s=A.lk(new A.a0w(s),null,q)
-A.fq(p).fC(s)}else{p.toString
-s=A.lk(new A.a0x(s),null,q)
-A.fq(p).fC(s)}},
+$0(){var s,r=this.b
+if(B.b.A(r," ")){s=this.a.c
+s.toString
+r=A.lk(new A.a0w(r),null,t.z)
+A.fq(s).fC(r)}else if(r.length>0){s=this.a.c
+s.toString
+r=A.lk(new A.a0x(r),null,t.z)
+A.fq(s).fC(r)}},
 $S:0}
 A.a0w.prototype={
 $1(a){return new A.ov(this.a,null)},
