@@ -100,17 +100,19 @@ params:
     features:
     - title: Multiple types of search
       text: Anagrams, cryptograms, crossword grid, prefix and suffix, and combinations of these
-      # Icon (from /images/illustrations/icons/___.svg)
       image: twg-home-small.png
-      #icon: laptop-globe
-    - title: Multiple dictionaries
-      text: Choose whether to limit to more common words or include a multitude of obscure ones
-      image: twg-dicts-small.png
-      #icon: doc-sync
+    - title: Multi-word searches
+      text: Constrain minimum and maximum word counts and lengths
+      image: twg-anag-small.png
+    - title: Advanced Engine
+      text: Simple searches powered by advanced underlying search engine
+      image: twg-adv-small.png
     - title: Word Definitions
       text: All words have offline Wiktionary definitions available
       image: twg-defn-small.png
-      #icon: mobile-feed
+    - title: Multiple dictionaries
+      text: Choose whether to limit to more common words or include a multitude of obscure ones
+      image: twg-dicts-small.png
   section3:
     title: One search
     subtitle: To rule them all
