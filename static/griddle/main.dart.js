@@ -61400,7 +61400,7 @@ A.uW.prototype={
 aw(){return A.asQ()}}
 A.JT.prototype={
 Sg(){var s,r,q,p,o
-for(s=this.e,r=t.R_,q=t.P,p=7;p<=7;++p){s.l(0,p,A.a([],r))
+for(s=this.e,r=t.R_,q=t.P,p=5;p<=7;++p){s.l(0,p,A.a([],r))
 o=""+p
 $.Az().JD("assets/files/words"+o+"x"+o+".txt").bh(0,new A.a5c(this,p),q)}},
 aO(){this.bc()
@@ -61534,10 +61534,11 @@ m=q-r.length
 for(o=0;o<m;++o)r.push(new A.D(((90+o*B.i.hh(150,m)&255)<<16|(255-o*B.i.hh(255,m)&255)<<8|4278190080)>>>0))
 l=A.a([],g)
 for(g=h*h,o=0;o<g;++o)l.push("")
-for(g=j.at,r=g*h,q=(h-g-1)*h,o=0;o<h;++o){l[r+o]=s[4][o].toLowerCase()
+for(g=j.at,r=g*h,q=(h-g-1)*h,o=0;o<h;o=k){l[r+o]=s[4][o].toLowerCase()
 l[q+o]=s[5][o].toLowerCase()
 l[h*o+g]=s[6][o].toLowerCase()
-l[7*o+4]=s[7][o].toLowerCase()}for(g=h*(h-1),o=0;o<h;o=k){l[o]=s[0][o]
+k=o+1
+l[h*k-g-1]=s[7][o].toLowerCase()}for(g=h*(h-1),o=0;o<h;o=k){l[o]=s[0][o]
 l[g+o]=s[1][o]
 l[h*o]=s[2][o]
 k=o+1
